@@ -1,0 +1,18 @@
+<div class="filters">
+  <div class="search-filter shadow">
+    <span class="bi bi-search"></span>
+    <input
+      type="text"
+      placeholder="Search for a country.."
+      [formControl]="searchField"
+    />
+  </div>
+</div>
+
+<div class="country-cards">
+  <app-country-card
+    *ngFor="let country of countries$ | async"
+    [country]="country"
+  >
+  </app-country-card>
+</div>

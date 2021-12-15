@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+
+  h2 {
+    font-size: 20px;
+  }
+
+  div {
+    font-weight: 600;
+  }
+}
