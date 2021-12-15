@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable, of, pipe } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
-import { Country, Currency, Language } from '../Models/countrydetails';
-import { CountryService } from '../services/country.service';
+import { Country, Currency, Language } from '../../Models/countrydetails';
+import { CountryService } from '../../services/country.service';
 
 @Component({
   selector: 'app-country-detail',

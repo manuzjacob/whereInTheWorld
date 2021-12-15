@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule, FormControl, ReactiveFormsModule } from '@angular/forms';
 import { combineLatest, Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
-import { Country } from '../Models/countrydetails';
-import { CountryService } from '../services/country.service';
+import { Country } from '../../Models/countrydetails';
+import { CountryService } from '../../services/country.service';
 
 const CONTINENTS = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania'];
 
